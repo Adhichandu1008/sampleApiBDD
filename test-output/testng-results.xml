@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-25T19:56:57 IST" name="Lending Assesment" finished-at="2023-05-25T19:57:12 IST" duration-ms="14813">
+    <groups>
+    </groups>
+    <test started-at="2023-05-25T19:56:57 IST" name="API Assesment" finished-at="2023-05-25T19:57:12 IST" duration-ms="14813">
+      <class name="sampleApiBDD.sampleApiBDD.PutReq">
+        <test-method signature="createNewUser()[pri:0, instance:sampleApiBDD.sampleApiBDD.PutReq@101952da]" started-at="2023-05-25T19:57:10 IST" name="createNewUser" finished-at="2023-05-25T19:57:11 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method signature="updateUser()[pri:0, instance:sampleApiBDD.sampleApiBDD.PutReq@101952da]" started-at="2023-05-25T19:57:11 IST" name="updateUser" finished-at="2023-05-25T19:57:11 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="validateUpdatedUser()[pri:0, instance:sampleApiBDD.sampleApiBDD.PutReq@101952da]" started-at="2023-05-25T19:57:11 IST" name="validateUpdatedUser" finished-at="2023-05-25T19:57:12 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpdatedUser -->
+      </class> <!-- sampleApiBDD.sampleApiBDD.PutReq -->
+      <class name="sampleApiBDD.sampleApiBDD.PostReq">
+        <test-method signature="postRequest()[pri:0, instance:sampleApiBDD.sampleApiBDD.PostReq@33990a0c]" started-at="2023-05-25T19:57:07 IST" name="postRequest" finished-at="2023-05-25T19:57:08 IST" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method signature="retrieveNewId()[pri:0, instance:sampleApiBDD.sampleApiBDD.PostReq@33990a0c]" started-at="2023-05-25T19:57:08 IST" name="retrieveNewId" finished-at="2023-05-25T19:57:09 IST" duration-ms="977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveNewId -->
+        <test-method signature="validateUser()[pri:0, instance:sampleApiBDD.sampleApiBDD.PostReq@33990a0c]" started-at="2023-05-25T19:57:09 IST" name="validateUser" finished-at="2023-05-25T19:57:10 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUser -->
+      </class> <!-- sampleApiBDD.sampleApiBDD.PostReq -->
+      <class name="sampleApiBDD.sampleApiBDD.GetReq">
+        <test-method signature="getFirstNameAndEmail()[pri:0, instance:sampleApiBDD.sampleApiBDD.GetReq@a2431d0]" started-at="2023-05-25T19:56:57 IST" name="getFirstNameAndEmail" finished-at="2023-05-25T19:57:03 IST" duration-ms="5697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstNameAndEmail -->
+        <test-method signature="userDetailsPerId()[pri:0, instance:sampleApiBDD.sampleApiBDD.GetReq@a2431d0]" started-at="2023-05-25T19:57:03 IST" name="userDetailsPerId" finished-at="2023-05-25T19:57:07 IST" duration-ms="3876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDetailsPerId -->
+        <test-method signature="validateResponseCode()[pri:0, instance:sampleApiBDD.sampleApiBDD.GetReq@a2431d0]" started-at="2023-05-25T19:57:07 IST" name="validateResponseCode" finished-at="2023-05-25T19:57:07 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseCode -->
+      </class> <!-- sampleApiBDD.sampleApiBDD.GetReq -->
+    </test> <!-- API Assesment -->
+  </suite> <!-- Lending Assesment -->
+</testng-results>
